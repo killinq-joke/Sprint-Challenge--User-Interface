@@ -33,6 +33,22 @@ body {
     animation: fade-bg 10s infinite;
 }
 
+@keyframes fade-bg {
+    0% {
+       
+        background-color:turquoise;
+    }
+
+    50% {
+        background-color:pink;
+    }
+
+    100% {
+
+        background-color: turquoise;
+    }
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -248,6 +264,7 @@ a:hover {
     border: 1px solid black;
     padding: 10px;
     border-radius: 8px;
+    animation: fade-bg 10s infinite;
 }
 
 .bottom-about {
@@ -256,20 +273,19 @@ a:hover {
     padding: 30px;
 }
 
-@keyframes fade-bg {
-    0% {
-       
-        background-color:turquoise;
-    }
-
-
-    50% {
-      
-        background-color:pink;
-    }
-
-    100% {
-
-        background-color: turquoise;
-    }
+.contact-form {
+    /* height: 600px; */
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.contact-form * {
+    margin:4px;
+    padding: 4px;
+    font-size: 20px;
+    
+}
+
