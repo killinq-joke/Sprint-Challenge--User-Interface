@@ -30,9 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    animation-name: fade-bg;
-    animation-duration: 60s;
+    animation: fade-bg 10s infinite;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -78,6 +78,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    background-color: white;
 }
 
 .top-content {
@@ -258,22 +259,17 @@ a:hover {
 @keyframes fade-bg {
     0% {
        
-        background-color:white;
+        background-color:turquoise;
     }
 
 
-    33% {
+    50% {
       
         background-color:pink;
     }
 
-    67% {
+    100% {
 
         background-color: turquoise;
-    }
-
-    100% {
-        
-        background-color:white;
     }
 }
