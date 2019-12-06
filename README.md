@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is HTML that's named after what it (<footer> for the footer & <button> for a button) and it helps for SEO
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block takes as much width as possible and inline will jump the end of the page and continue under
 
 3. What are the 4 areas of the box model?
 
+margin, border, padding, content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross (vertical by default)
+
 5. Explain why git is valuable to a team of developers.
+
+Helps not make a mess out of the original code and make adjustement so that each dev's feature don't contradict w/ each other!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -57,7 +67,7 @@ Follow these steps for completing your project.
 
 - [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [x] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Your project manager will count the project as complete by merging the branch back into master.
  
 
 
