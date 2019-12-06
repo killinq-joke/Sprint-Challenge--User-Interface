@@ -228,8 +228,7 @@ a:hover {
     height: 110%;
     margin: 10px;
     border-bottom: 1px dashed black;
-    padding: 20px 1% 0;
-    padding-bottom: 20px;  
+    padding: 20px 1% 30px;
 }
 
 .containerr .container-50 * {
@@ -245,4 +244,10 @@ a:hover {
     border: 1px solid black;
     padding: 10px;
     border-radius: 8px;
+}
+
+.bottom-about {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 30px;
 }
