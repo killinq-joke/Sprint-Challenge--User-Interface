@@ -81,7 +81,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 20px 1% 0;
     padding-bottom: 20px;  
 }
 
@@ -104,12 +104,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.a {
+    background-color:teal;
+}
+
+.b {
+    background-color:gold;
+}
+
+.c {
+    background-color:cadetblue;
+}
+
+.d {
+    background-color:coral;
+}
+
+.e {
+    background-color:crimson;
+}
+
+.f {
+    background-color:forestgreen;
+}
+
+.g {
+    background-color:darkorchid;
+}
+
+.h {
+    background-color:hotpink;
+}
+
+.i {
+    background-color:indigo;
+}
+
+.j {
+    background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -156,4 +195,8 @@ footer nav a {
     text-decoration: none;
     color: black;
     padding: 20px;
+}
+
+a:hover {
+    color:red;
 }
