@@ -192,11 +192,45 @@ footer nav a {
 }
 
 .top-nav a {
-    text-decoration: none;
-    color: black;
     padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
 }
 
 a:hover {
     color:red;
+}
+
+.containerr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.containerr .container-50 {
+    width: 47%;
+    height: 110%;
+    margin: 10px;
+    border-bottom: 1px dashed black;
+    padding: 20px 1% 0;
+    padding-bottom: 20px;  
+}
+
+.containerr .container-50 * {
+   width: 100%; 
+}
+
+.containerr .container-50 p {
+    height: 100px;
+}
+
+.containerr .container-50 a {
+    margin: 200px 0;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
 }
