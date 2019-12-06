@@ -29,7 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    animation-name: fade-bg;
+    animation-duration: 60s;
 }
 ol, ul {
 	list-style: none;
@@ -54,6 +56,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
@@ -250,4 +253,27 @@ a:hover {
     display: flex;
     flex-flow: column nowrap;
     padding: 30px;
+}
+
+@keyframes fade-bg {
+    0% {
+       
+        background-color:white;
+    }
+
+
+    33% {
+      
+        background-color:pink;
+    }
+
+    67% {
+
+        background-color: turquoise;
+    }
+
+    100% {
+        
+        background-color:white;
+    }
 }
